@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+article{
+  /* border: 2px solid green; */
+  /* margin-top: 30px; */
+  padding-top: 20px;
+}
+#form{
+  /* border: 2px solid red; */
+  width: 600px;
+  display: flex;
+  gap: 30px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 32px;
+
+
+
+  margin: 90px auto;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.ip{
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding-left: 12px;
+
+}
+::placeholder{
+  color: black;
+  font-weight: bold;
+  padding-left: 20px;
+}
+body{
+  background-color: grey;
+}
+.firstdiv{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#genderDiv{
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    font-size: 22px;
+    gap: 15px;
+    height: 40px;
+    width: 250px;
+    /* margin-top: 8px; */
+}
+
+
+
+
+#heading{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+}
+
+#btn{
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: rgb(4, 105, 4);
+  cursor: pointer;
+}
+
+/* #btn:hover{
+  background-color: rgb(13, 197, 13);
+} */
+
+#button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -280px;
+  margin-top: 40px;
+}
+
+#error{
+  width: 648px;
+  text-align: center;
+  height: 40px;
+  border: 2px solid rgb(255, 22, 22);
+  color: black;
+  margin: -650px auto;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 2px red;
+  box-shadow: 1px 1px 15px 0.1px rgb(164, 136, 136);
+  /* background-color: rgb(104, 21, 120); */
+  /* visibility: hidden; */
+  border-radius: 15px;
+}
+
+
+/* let visi = () => {
+    let SI = setInterval(
+      () => {
+        console.log("error");
+    }, 3000);
+    setTimeout(() => {
+        clearInterval(SI);
+    }, 10000);
+}
+ */

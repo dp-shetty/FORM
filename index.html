@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <article>
+        <div id="heading">
+          <h1>Registration Form</h1>
+        </div>
+        <form action="" id="form" autocomplete="off">
+          <div class="firstdiv">
+            <div>
+              <input class="ip" type="text" placeholder="Enter First Name" id="username1"/>
+            </div>
+            <div>
+              <input class="ip" type="tel" placeholder="Enter your number" id="number" />
+            </div>
+            <div>
+              <input class="ip" type="password" placeholder="Enter password" id="pwd"/>
+            </div>
+            <div>
+              <input class="ip" type="date" id="dob" /> <label for=""></label>
+            </div>
+          </div>
+
+          <div class="firstdiv">
+            <div>
+              <input class="ip" type="text" placeholder="Enter Last Name" id="username2"/>
+            </div>
+            <div>
+              <input class="ip" type="text" placeholder="Enter your email" id="email"/>
+            </div>
+            <div>
+              <input class="ip" type="password" placeholder="Confirm password" id="cpwd"/>
+            </div>
+            <div id="genderDiv">
+              <input class="ip" type="text" placeholder="gender" id="gender"/>
+            </div>
+            <div id="button">
+              <button id="btn" type="submit">Register</button>
+            </div>
+          </div>
+        </form>
+      </article>
+
+
+      <div id="error"></div>
+
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

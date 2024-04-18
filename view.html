@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Data</title>
+    <link rel="stylesheet" href="./view.css">
+  </head>
+  <body>
+
+      <div class="searchIp">
+        <div class="name">
+          <input type="text" placeholder="FirstName" id="name" />
+        </div>
+        <div class="number">
+          <input type="text" placeholder="Number" id="number" />
+        </div>
+        <div class="email">
+          <input type="text" placeholder="Email" id="email" />
+        </div>
+      </div>
+
+      <button class="btnSearch" onclick="search()">Search</button>
+
+    <table>
+
+      <thead id="tableHead">
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Number</th>
+        <th>Password</th>
+        <th>DOB</th>
+        <th>Email</th>
+        <th>Gender</th>
+      </thead>
+
+      <tbody id="usersList"></tbody>
+
+    </table>
+
+    <script src="./view.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius :12px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: grey;
+}
+article {
+  /* border: 1px solid rgb(203, 199, 199); */
+  margin-left: 244px;
+}
+h1 {
+  font-size: 35px;
+}
+form {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid rgb(236, 227, 227);
+  margin-top: 91px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#reset_btn{
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(174, 18, 26);
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+#submit_btn {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(1, 95, 1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#reset_btn:hover{
+    background-color: rgb(234, 39, 39);
+    font-size: 20px;
+}
+
+#submit_btn:hover{
+    background-color: rgb(98, 237, 47);
+    font-size: 20px;
+}
+
+
+#heading{
+  border: 2px solid rgb(255, 0, 0);
+  margin: -313px auto 50px -504px;
+  width: 900px;
+  text-align: center;
+  color: white;
+  /* text-shadow: 1px 1px 2px red; */
+} 
+
+
+
